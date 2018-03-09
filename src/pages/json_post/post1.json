@@ -1,0 +1,5 @@
+{
+  "title": "This is the JSON title",
+  "path": "/json_demo",
+  "content": "This is the value of an example field called content."
+}
