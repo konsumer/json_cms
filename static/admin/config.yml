@@ -30,3 +30,14 @@ collections:
       - {label: "Path", name: "path", widget: "hidden", default: "/about"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "json_post"
+    label: "JSON"
+    folder: "src/pages/json_post"
+    format: "json"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "string"}
